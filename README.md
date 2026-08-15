@@ -1,16 +1,11 @@
-# RTSP Viewer for Ignition 8.1 — Free Edition
-
-> **This is the Ignition 8.1 build.** Running **Ignition 8.3 or newer**? Use
-> **[CVISupport/RTSP](https://github.com/CVISupport/RTSP)** instead — same product, built for that
-> platform line. A Gateway runs one or the other; installing the wrong one is harmless (it refuses to
-> start and says so in the Gateway log). License keys and Perspective views work on either.
+# RTSP Viewer for Ignition — Free Edition
 
 View live IP-camera **RTSP** streams natively in **Ignition Perspective**. A gateway-managed relay
 repackages each camera's existing stream for the browser — **without re-encoding it** — and plays it
 in an **RTSP Camera Grid** component. No browser plugins, and no transcoding, so image quality is
 untouched and a screen full of cameras costs the Gateway very little.
 
-This repo distributes the **free, limited edition for Ignition 8.1** (up to **6 camera feeds**). Paid tiers lift
+This repo distributes the **free, limited edition** (up to **6 camera feeds**). Paid tiers lift
 the limit — see [Editions](#editions).
 
 **Two delivery modes.** **HLS** (the default) rides the Gateway's own web port — no extra ports, works
@@ -26,7 +21,7 @@ the **same network**. See [Low-latency mode](#low-latency-mode-webrtc).
 
 ## Download
 
-Get the latest `.modl` from the **[Releases](https://github.com/CVISupport/RTSP-Ignition-8.1/releases)** page.
+Get the latest `.modl` from the **[Releases](https://github.com/CVISupport/RTSP-Ignition-8.3/releases)** page.
 
 > This build is **self-signed**. On install, the Gateway shows a one-time certificate prompt —
 > review the fingerprint below and accept it. Nothing else is affected.
@@ -70,7 +65,7 @@ Subject: CN=Central Valley Ignition, O=Central Valley Ignition, L=Fresno, S=CA, 
 
 ![RTSP Camera Grid in the Ignition Designer](images/designer-preview.png)
 
-Full guide: **[HOWTO-8.1.md](https://github.com/CVISupport/RTSP-Ignition-8.1/releases)** (attached to the release).
+Full guide: **[HOWTO.pdf](https://github.com/CVISupport/RTSP-Ignition-8.3/releases)** (attached to the release).
 
 ---
 
@@ -145,7 +140,7 @@ Upgrading is a license key — no reinstall. **[Contact us](#support)** with you
 (shown on the License card in the config page) to purchase.
 
 ## Support
-- Issues / questions: open an **[Issue](https://github.com/CVISupport/RTSP-Ignition-8.1/issues)** or email **Support@CentralValleyIgnition.com**.
+- Issues / questions: open an **[Issue](https://github.com/CVISupport/RTSP-Ignition-8.3/issues)** or email **Support@CentralValleyIgnition.com**.
 - Include your Ignition version and, for camera problems, the camera make/model + stream codec.
 
 ## License
