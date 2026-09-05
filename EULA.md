@@ -5,8 +5,8 @@ rely on it.**
 
 _Last updated: 07/31/2026_
 
-This End User License Agreement ("Agreement") is between **Central Valley Ignition**
-(www.CentralValleyIgnition.com) ("Licensor") and you or the entity you represent ("Licensee"). By downloading, installing,
+This End User License Agreement ("Agreement") is between **Parsley Automation**
+(www.parsleyautomation.com) ("Licensor") and you or the entity you represent ("Licensee"). By downloading, installing,
 or using the RTSP Viewer for Ignition software module, including the Free Edition (the
 "Software"), Licensee agrees to this Agreement. If you do not agree, do not install or use the
 Software.
@@ -66,4 +66,4 @@ This Agreement is governed by the laws of the State of California, without regar
 of laws rules. Venue for any dispute lies in Merced County, California.
 
 ## 11. Contact
-Central Valley Ignition · www.CentralValleyIgnition.com · Support@CentralValleyIgnition.com
+Parsley Automation · www.parsleyautomation.com · Support@parsleyautomation.com

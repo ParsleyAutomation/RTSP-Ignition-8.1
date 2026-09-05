@@ -1,7 +1,7 @@
 # RTSP Viewer for Ignition 8.1 — Free Edition
 
 > **This is the Ignition 8.1 build.** Running **Ignition 8.3 or newer**? Use
-> **[CVISupport/RTSP-Ignition-8.3](https://github.com/CVISupport/RTSP-Ignition-8.3)** instead — same
+> **[ParsleyAutomation/RTSP-Ignition-8.3](https://github.com/ParsleyAutomation/RTSP-Ignition-8.3)** instead — same
 > product, built for that platform line. A Gateway runs one or the other; installing the wrong one is
 > harmless (it refuses to start and says so in the Gateway log). License keys and Perspective views
 > work on either.
@@ -27,7 +27,7 @@ the **same network**. See [Low-latency mode](#low-latency-mode-webrtc).
 
 ## Download
 
-Get the latest `.modl` from the **[Releases](https://github.com/CVISupport/RTSP-Ignition-8.1/releases)** page.
+Get the latest `.modl` from the **[Releases](https://github.com/ParsleyAutomation/RTSP-Ignition-8.1/releases)** page.
 
 > This build is **self-signed**. On install, the Gateway shows a one-time certificate prompt —
 > review the fingerprint below and accept it. Nothing else is affected.
@@ -35,7 +35,7 @@ Get the latest `.modl` from the **[Releases](https://github.com/CVISupport/RTSP-
 **Signing certificate — SHA-256 fingerprint** (verify before trusting):
 ```
 FC:62:F4:68:A5:0D:AA:57:D4:6E:B6:05:BE:C0:5E:C9:C4:C3:DE:79:A5:14:02:20:C8:9B:92:07:CD:6A:A1:DF
-Subject: CN=Central Valley Ignition, O=Central Valley Ignition, L=Fresno, S=CA, C=US
+Subject: CN=Parsley Automation, O=Parsley Automation, L=Fresno, S=CA, C=US
 ```
 
 ---
@@ -64,14 +64,14 @@ Subject: CN=Central Valley Ignition, O=Central Valley Ignition, L=Fresno, S=CA, 
 
 ## Add the component (Designer)
 1. Open a **Perspective** view.
-2. From the **Central Valley Ignition** palette category, drag **RTSP Camera Grid** onto the view.
+2. From the **Parsley Automation** palette category, drag **RTSP Camera Grid** onto the view.
 3. Leave `cameras` empty to show all, or list cameras by **name**. Save and open a Session.
 
 *In the Designer, tiles show a placeholder — live video only renders in a browser Session:*
 
 ![RTSP Camera Grid in the Ignition Designer](images/designer-preview.png)
 
-Full guide: **[HOWTO-8.1.md](https://github.com/CVISupport/RTSP-Ignition-8.1/releases)** (attached to the release).
+Full guide: **[HOWTO-8.1.md](https://github.com/ParsleyAutomation/RTSP-Ignition-8.1/releases)** (attached to the release).
 
 ---
 
@@ -112,7 +112,7 @@ RTSP Viewer works in Perspective Workstation, but **not by default**.
 Workstation's embedded browser ships with H.264 playback **disabled**. Until it is enabled, camera
 tiles stay black while the rest of the view renders normally — whether the view holds one camera or
 twenty. Enabling it is a change you make to your own Workstation installation: a JVM flag in
-Workstation's launcher config. It is off in a stock install, and neither Central Valley Ignition nor
+Workstation's launcher config. It is off in a stock install, and neither Parsley Automation nor
 this module turns it on for you.
 
 ### What this module does and does not do
@@ -128,7 +128,7 @@ this module turns it on for you.
 Decoding H.264 can carry patent-licensing obligations, depending on your jurisdiction, your
 deployment, and how you use it. If you enable H.264 playback in Workstation, **you are responsible for
 determining and meeting any licensing obligations that apply to you**, including any AVC/H.264
-patent-pool terms. Central Valley Ignition provides no license, sublicense, or indemnity for H.264
+patent-pool terms. Parsley Automation provides no license, sublicense, or indemnity for H.264
 decoding.
 
 ---
@@ -146,7 +146,7 @@ Upgrading is a license key — no reinstall. **[Contact us](#support)** with you
 (shown on the License card in the config page) to purchase.
 
 ## Support
-- Issues / questions: open an **[Issue](https://github.com/CVISupport/RTSP-Ignition-8.1/issues)** or email **Support@CentralValleyIgnition.com**.
+- Issues / questions: open an **[Issue](https://github.com/ParsleyAutomation/RTSP-Ignition-8.1/issues)** or email **Support@parsleyautomation.com**.
 - Include your Ignition version and, for camera problems, the camera make/model + stream codec.
 
 ## License

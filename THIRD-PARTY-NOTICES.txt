@@ -29,7 +29,7 @@ included in this same folder.
    Source:    https://www.bouncycastle.org/java.html
 -------------------------------------------------------------------------------
 
-The RTSP Viewer module itself is (c) Central Valley Ignition. All bundled
+The RTSP Viewer module itself is (c) Parsley Automation. All bundled
 components carry permissive licenses (MIT / Apache-2.0) that allow commercial
 redistribution provided their copyright and license notices are retained — which
 is the purpose of this folder.

@@ -27,7 +27,7 @@ platform and shipped as its own `.modl`.
 - **This build is for Ignition 8.1 only** — it installs on the whole 8.1 line, from **8.1.5** through
   current.
 - **On Ignition 8.3 or newer, download the 8.3 build instead:**
-  [CVISupport/RTSP-Ignition-8.3](https://github.com/CVISupport/RTSP-Ignition-8.3). A Gateway runs one
+  [ParsleyAutomation/RTSP-Ignition-8.3](https://github.com/ParsleyAutomation/RTSP-Ignition-8.3). A Gateway runs one
   or the other; this build refuses to start on 8.3 and says so in the Gateway log.
 - The configuration page lives under **Config → Networking** here; on 8.3 it is under *Connections*.
 - License keys are interchangeable between editions: a key issued for one works on the other.

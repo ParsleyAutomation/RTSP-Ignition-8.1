@@ -59,7 +59,7 @@ cameras still stream fine, they just don't get the NVR extras.
 ## 3. Add the component to a view (Designer)
 
 1. Open the **Designer** → open (or create) a **Perspective** view.
-2. In the **Perspective Components** palette, find the **Central Valley Ignition** category.
+2. In the **Perspective Components** palette, find the **Parsley Automation** category.
 3. Drag **RTSP Camera Grid** onto the view.
 4. Out of the box it shows **all** configured cameras. To pick specific ones, edit the
    `cameras` prop and add camera **names** (the same names from step 2).
@@ -194,4 +194,4 @@ Connectivity card lists which cameras fell back and why.
 
 ---
 
-*RTSP Viewer · Central Valley Ignition · www.CentralValleyIgnition.com*
+*RTSP Viewer · Parsley Automation · www.parsleyautomation.com*
