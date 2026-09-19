@@ -1,8 +1,5 @@
 # End User License Agreement — RTSP Viewer for Ignition (Free Edition)
 
-**IMPORTANT — this is a template, not finished legal advice. Have a lawyer review it before you
-rely on it.**
-
 _Last updated: 07/31/2026_
 
 This End User License Agreement ("Agreement") is between **Parsley Automation**
