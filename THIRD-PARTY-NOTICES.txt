@@ -8,7 +8,8 @@ included in this same folder.
 -------------------------------------------------------------------------------
 1) MediaMTX
    Role:      Bundled gateway sidecar that pulls each camera's RTSP(S) feed and
-              remuxes it to HLS (no transcoding). Runs on loopback only.
+              remuxes it to HLS and WebRTC (no transcoding). Its HTTP ports are bound to
+              loopback; the WebRTC media UDP port is bound on all interfaces.
    Copyright: (c) 2019 aler9 and the MediaMTX contributors.
    License:   MIT  ->  mediamtx-LICENSE-MIT.txt
    Source:    https://github.com/bluenviron/mediamtx
@@ -19,14 +20,6 @@ included in this same folder.
    Copyright: (c) the hls.js / video-dev contributors (originally Dailymotion).
    License:   Apache License 2.0  ->  hls.js-LICENSE-Apache-2.0.txt
    Source:    https://github.com/video-dev/hls.js
-
-3) Bouncy Castle (bcprov-jdk18on)
-   Role:      Ed25519 signature verification for offline license validation.
-              Bundled because the JDK only provides Ed25519 from Java 15, and an
-              Ignition 8.1 gateway may be running Java 11. Gateway scope only.
-   Copyright: (c) 2000 - 2024 The Legion of the Bouncy Castle Inc.
-   License:   MIT (the Bouncy Castle Licence)  ->  bouncycastle-LICENSE-MIT.txt
-   Source:    https://www.bouncycastle.org/java.html
 -------------------------------------------------------------------------------
 
 The RTSP Viewer module itself is (c) Parsley Automation. All bundled
